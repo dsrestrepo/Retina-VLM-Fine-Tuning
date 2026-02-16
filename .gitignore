@@ -1,0 +1,26 @@
+# Environments
+.env
+
+# Scripts containing keys
+*.sh
+!analyze_results.sh
+!ft_sft_medgemma.sh
+!ft_rlvf_medgemma.sh
+!evaluate_retina.sh
+
+# Results and Logs
+results/
+logs/
+
+# Reference materials
+src_ref/
+
+# JSON files
+*.json
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebooks
+.ipynb_checkpoints
